@@ -1,6 +1,9 @@
-# node-upload
+/**
+ * node-upload
+ * author:ander <anderpang@qq.com>
+ */
 var http=require("http");
-var upload=request("./lib/node-upload");
+var upload=require("./lib/node-upload");
 
 http.createServer(function(request,response){
   if(request.method === "POST")
@@ -9,6 +12,5 @@ http.createServer(function(request,response){
         console.log(data);
       });
   }
-});
+}).listen(80);
 
-http.listen(80);
