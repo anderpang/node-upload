@@ -6,6 +6,7 @@ var http=require("http");
 var upload=require("./lib/node-upload");
 
 http.createServer(function(request,response){
+    console.log(__dirname);
   if(request.method === "POST")
   {
       upload(request,function(data){
@@ -13,4 +14,3 @@ http.createServer(function(request,response){
       });
   }
 }).listen(80);
-
