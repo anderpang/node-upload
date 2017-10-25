@@ -57,6 +57,6 @@ http.createServer(function(request,response){
 
 ## AUTHORS
 
-Ander Page (anderpange@qq.com)
+Ander Pang (anderpang@foxmail.com)
 
 2014/2/15制作，那时还不懂得发布。
